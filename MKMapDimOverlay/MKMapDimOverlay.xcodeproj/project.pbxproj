@@ -1,0 +1,284 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B6A386B91AF2E9F1001D607D /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = B6A386B81AF2E9F1001D607D /* README.md */; };
+		B6CC51E41AF2D69500EFA2C7 /* MKMapDimOverlay.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B6CC51E31AF2D69500EFA2C7 /* MKMapDimOverlay.h */; };
+		B6CC51E61AF2D69500EFA2C7 /* MKMapDimOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = B6CC51E51AF2D69500EFA2C7 /* MKMapDimOverlay.m */; };
+		B6CC51FB1AF2D6F500EFA2C7 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6CC51FA1AF2D6F500EFA2C7 /* MapKit.framework */; };
+		B6CC52001AF2D95200EFA2C7 /* MKMapDimOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6CC51FF1AF2D95200EFA2C7 /* MKMapDimOverlayView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B6CC51DE1AF2D69500EFA2C7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				B6CC51E41AF2D69500EFA2C7 /* MKMapDimOverlay.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B6A386B71AF2E9F1001D607D /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE; path = ../../LICENSE; sourceTree = "<group>"; };
+		B6A386B81AF2E9F1001D607D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../README.md; sourceTree = "<group>"; };
+		B6CC51E01AF2D69500EFA2C7 /* libMKMapDimOverlay.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMKMapDimOverlay.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6CC51E31AF2D69500EFA2C7 /* MKMapDimOverlay.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKMapDimOverlay.h; sourceTree = "<group>"; };
+		B6CC51E51AF2D69500EFA2C7 /* MKMapDimOverlay.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKMapDimOverlay.m; sourceTree = "<group>"; };
+		B6CC51FA1AF2D6F500EFA2C7 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		B6CC51FE1AF2D95200EFA2C7 /* MKMapDimOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKMapDimOverlayView.h; sourceTree = "<group>"; };
+		B6CC51FF1AF2D95200EFA2C7 /* MKMapDimOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKMapDimOverlayView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6CC51DD1AF2D69500EFA2C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6CC51FB1AF2D6F500EFA2C7 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B6CC51D71AF2D69500EFA2C7 = {
+			isa = PBXGroup;
+			children = (
+				B6CC51E21AF2D69500EFA2C7 /* MKMapDimOverlay */,
+				B6CC51FD1AF2D72E00EFA2C7 /* SupportingFiles */,
+				B6CC51FC1AF2D70100EFA2C7 /* Frameworks */,
+				B6CC51E11AF2D69500EFA2C7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B6CC51E11AF2D69500EFA2C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6CC51E01AF2D69500EFA2C7 /* libMKMapDimOverlay.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6CC51E21AF2D69500EFA2C7 /* MKMapDimOverlay */ = {
+			isa = PBXGroup;
+			children = (
+				B6CC51E31AF2D69500EFA2C7 /* MKMapDimOverlay.h */,
+				B6CC51E51AF2D69500EFA2C7 /* MKMapDimOverlay.m */,
+				B6CC51FE1AF2D95200EFA2C7 /* MKMapDimOverlayView.h */,
+				B6CC51FF1AF2D95200EFA2C7 /* MKMapDimOverlayView.m */,
+				B6A386B71AF2E9F1001D607D /* LICENSE */,
+				B6A386B81AF2E9F1001D607D /* README.md */,
+			);
+			path = MKMapDimOverlay;
+			sourceTree = "<group>";
+		};
+		B6CC51FC1AF2D70100EFA2C7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B6CC51FA1AF2D6F500EFA2C7 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B6CC51FD1AF2D72E00EFA2C7 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = SupportingFiles;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B6CC51DF1AF2D69500EFA2C7 /* MKMapDimOverlay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6CC51F41AF2D69500EFA2C7 /* Build configuration list for PBXNativeTarget "MKMapDimOverlay" */;
+			buildPhases = (
+				B6CC51DC1AF2D69500EFA2C7 /* Sources */,
+				B6CC51DD1AF2D69500EFA2C7 /* Frameworks */,
+				B6CC51DE1AF2D69500EFA2C7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MKMapDimOverlay;
+			productName = MKMapDimOverlay;
+			productReference = B6CC51E01AF2D69500EFA2C7 /* libMKMapDimOverlay.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6CC51D81AF2D69500EFA2C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Swapnil Luktuke";
+				TargetAttributes = {
+					B6CC51DF1AF2D69500EFA2C7 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+				};
+			};
+			buildConfigurationList = B6CC51DB1AF2D69500EFA2C7 /* Build configuration list for PBXProject "MKMapDimOverlay" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B6CC51D71AF2D69500EFA2C7;
+			productRefGroup = B6CC51E11AF2D69500EFA2C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6CC51DF1AF2D69500EFA2C7 /* MKMapDimOverlay */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6CC51DC1AF2D69500EFA2C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6A386B91AF2E9F1001D607D /* README.md in Sources */,
+				B6CC51E61AF2D69500EFA2C7 /* MKMapDimOverlay.m in Sources */,
+				B6CC52001AF2D95200EFA2C7 /* MKMapDimOverlayView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B6CC51F21AF2D69500EFA2C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B6CC51F31AF2D69500EFA2C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B6CC51F51AF2D69500EFA2C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B6CC51F61AF2D69500EFA2C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B6CC51DB1AF2D69500EFA2C7 /* Build configuration list for PBXProject "MKMapDimOverlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6CC51F21AF2D69500EFA2C7 /* Debug */,
+				B6CC51F31AF2D69500EFA2C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6CC51F41AF2D69500EFA2C7 /* Build configuration list for PBXNativeTarget "MKMapDimOverlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6CC51F51AF2D69500EFA2C7 /* Debug */,
+				B6CC51F61AF2D69500EFA2C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B6CC51D81AF2D69500EFA2C7 /* Project object */;
+}
