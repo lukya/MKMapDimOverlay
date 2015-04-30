@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		B6A386B91AF2E9F1001D607D /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = B6A386B81AF2E9F1001D607D /* README.md */; };
+		B6A386BB1AF2F082001D607D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6A386BA1AF2F082001D607D /* UIKit.framework */; };
+		B6A386BD1AF2F088001D607D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6A386BC1AF2F088001D607D /* Foundation.framework */; };
+		B6A386C11AF2F0DB001D607D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6A386C01AF2F0DB001D607D /* CoreGraphics.framework */; };
 		B6CC51E41AF2D69500EFA2C7 /* MKMapDimOverlay.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B6CC51E31AF2D69500EFA2C7 /* MKMapDimOverlay.h */; };
 		B6CC51E61AF2D69500EFA2C7 /* MKMapDimOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = B6CC51E51AF2D69500EFA2C7 /* MKMapDimOverlay.m */; };
 		B6CC51FB1AF2D6F500EFA2C7 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6CC51FA1AF2D6F500EFA2C7 /* MapKit.framework */; };
@@ -30,6 +33,9 @@
 /* Begin PBXFileReference section */
 		B6A386B71AF2E9F1001D607D /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE; path = ../../LICENSE; sourceTree = "<group>"; };
 		B6A386B81AF2E9F1001D607D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../README.md; sourceTree = "<group>"; };
+		B6A386BA1AF2F082001D607D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B6A386BC1AF2F088001D607D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B6A386C01AF2F0DB001D607D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		B6CC51E01AF2D69500EFA2C7 /* libMKMapDimOverlay.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMKMapDimOverlay.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6CC51E31AF2D69500EFA2C7 /* MKMapDimOverlay.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKMapDimOverlay.h; sourceTree = "<group>"; };
 		B6CC51E51AF2D69500EFA2C7 /* MKMapDimOverlay.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKMapDimOverlay.m; sourceTree = "<group>"; };
@@ -43,6 +49,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6A386C11AF2F0DB001D607D /* CoreGraphics.framework in Frameworks */,
+				B6A386BD1AF2F088001D607D /* Foundation.framework in Frameworks */,
+				B6A386BB1AF2F082001D607D /* UIKit.framework in Frameworks */,
 				B6CC51FB1AF2D6F500EFA2C7 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -84,6 +93,9 @@
 		B6CC51FC1AF2D70100EFA2C7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B6A386C01AF2F0DB001D607D /* CoreGraphics.framework */,
+				B6A386BC1AF2F088001D607D /* Foundation.framework */,
+				B6A386BA1AF2F082001D607D /* UIKit.framework */,
 				B6CC51FA1AF2D6F500EFA2C7 /* MapKit.framework */,
 			);
 			name = Frameworks;
