@@ -72,4 +72,5 @@ This code is distributed under the terms and conditions of the [MIT license](LIC
 
 ## Change-log
 
+[MKMapDimOverlay Change Log](https://github.com/lukya/MKMapDimOverlay/wiki/Change-Log)
 
