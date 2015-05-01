@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
     s.name              = 'MKMapDimOverlay'
 	s.platform			= :ios
-    s.version           = '0.0.2'
+    s.version           = '0.0.3'
     s.summary           = 'Description of your project'
     s.homepage          = 'https://github.com/lukya/MKMapDimOverlay'
     s.license           = {
