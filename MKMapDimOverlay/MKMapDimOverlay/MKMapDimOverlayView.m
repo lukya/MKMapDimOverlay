@@ -30,7 +30,6 @@
     CGContextSetAlpha(ctx, self.overlayAlpha);
     CGContextSetFillColorWithColor(ctx, self.overlayColor.CGColor);
     CGContextFillRect(ctx, [self rectForMapRect:MKMapRectWorld]);
-    
 }
 
 @end
