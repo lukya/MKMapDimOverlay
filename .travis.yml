@@ -1,0 +1,4 @@
+language: objective-c
+xcode_workspace: MKMapDimOverlay.xcworkspace
+xcode_scheme: MapOverlayDemo
+xcode_sdk: iphonesimulator
