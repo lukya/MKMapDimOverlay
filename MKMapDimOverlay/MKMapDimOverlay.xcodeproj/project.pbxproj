@@ -36,6 +36,7 @@
 		B6A386BA1AF2F082001D607D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B6A386BC1AF2F088001D607D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B6A386C01AF2F0DB001D607D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B6A386C21AF2FA4B001D607D /* MKMapDimOverlay.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; name = MKMapDimOverlay.podspec; path = ../../MKMapDimOverlay.podspec; sourceTree = "<group>"; };
 		B6CC51E01AF2D69500EFA2C7 /* libMKMapDimOverlay.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMKMapDimOverlay.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6CC51E31AF2D69500EFA2C7 /* MKMapDimOverlay.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKMapDimOverlay.h; sourceTree = "<group>"; };
 		B6CC51E51AF2D69500EFA2C7 /* MKMapDimOverlay.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKMapDimOverlay.m; sourceTree = "<group>"; };
@@ -86,6 +87,7 @@
 				B6CC51FF1AF2D95200EFA2C7 /* MKMapDimOverlayView.m */,
 				B6A386B71AF2E9F1001D607D /* LICENSE */,
 				B6A386B81AF2E9F1001D607D /* README.md */,
+				B6A386C21AF2FA4B001D607D /* MKMapDimOverlay.podspec */,
 			);
 			path = MKMapDimOverlay;
 			sourceTree = "<group>";
