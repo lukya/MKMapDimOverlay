@@ -1,4 +1,4 @@
-# MKMapDimOverlay
+# MKMapDimOverlay [![Build Status](https://travis-ci.org/lukya/MKMapDimOverlay.svg?branch=master)](https://travis-ci.org/lukya/MKMapDimOverlay)
 
 Simple dim overlay on iOS MKMapView, covering entire map using MKOverlay and MKOverlayView with customisable colour and alpha values.
 
