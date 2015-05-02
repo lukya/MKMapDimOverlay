@@ -33,7 +33,7 @@ And in map view's `mapView: viewForOverlay:` delegate method, instantiate and re
 
 [CocoaPods](http://cocoapods.org) is the recommended way to add MKMapDimOverlay to your project.
 
-1. Add a pod entry for MBProgressHUD to your Podfile `pod 'MKMapDimOverlay'`
+1. Add a pod entry for MKMapDimOverlay to your Podfile `pod 'MKMapDimOverlay'`
 2. Install the pod(s) by running `pod install`.
 3. Include MKMapDimOverlay wherever you need it with `#import "MKMapDimOverlay.h"` and `#import "MKMapDimOverlayView.h"`.
 
