@@ -37,7 +37,7 @@
 
 #pragma mark - MKMapViewDelegate
 
--(MKOverlayView *)mapView:(MKMapView *)mapView viewForOverlay:(id<MKOverlay>)overlay {
+- (MKOverlayRenderer*)mapView:(MKMapView*)mapView rendererForOverlay:(id<MKOverlay>)overlay {
     if([overlay isMemberOfClass:[MKMapDimOverlay class]]) {
         MKMapDimOverlayView *dimOverlayView = [[MKMapDimOverlayView alloc] initWithOverlay:overlay];
 //        dimOverlayView.overlayAlpha = 0.06;
