@@ -4,7 +4,7 @@
 [![License](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](/LICENSE)
 [![Twitter: @swapnilluktuke](https://img.shields.io/badge/Contact-@swapnilluktuke-blue.svg)](https://twitter.com/swapnilluktuke)
 
-Simple dim overlay on iOS MKMapView, covering entire map using MKOverlay and MKOverlayView with customisable colour and alpha values.
+Simple dim overlay on iOS MKMapView, covering entire map using MKOverlay and MKOverlayView with customizable colour and alpha values.
 
 ## Usage
 
@@ -17,10 +17,10 @@ Initialize and add `MKMapDimOverlay` to your MKMapView object.
 }
 ```
 
-And in map view's `mapView: viewForOverlay:` delegate method, instantiate and return `MKMapDimOverlayView`. You can customize overlay color and opacity.
+And in map view's `mapView: rendererForOverlay:` delegate method, instantiate and return `MKMapDimOverlayView`. You can customize overlay color and opacity.
 
 ```objective-c
--(MKOverlayView *)mapView:(MKMapView *)mapView viewForOverlay:(id<MKOverlay>)overlay {
+-(MKOverlayRenderer *)mapView:(MKMapView *)mapView rendererForOverlay:(id<MKOverlay>)overlay {
 	if([overlay isMemberOfClass:[MKMapDimOverlay class]]) {
 		MKMapDimOverlayView *dimOverlayView = [[MKMapDimOverlayView alloc] initWithOverlay:overlay];
 		dimOverlayView.overlayAlpha = 0.3;
