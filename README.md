@@ -57,13 +57,13 @@ You can also add MKMapDimOverlay as a static library to your project or workspac
 
 ## Screenshots
 ### No Overlay
-![No Overlay](https://dl.dropboxusercontent.com/u/22816811/MKMapDimOverlay/Map_NoOverlay.png)
+![No Overlay](/Screenshots/NoOverlay.png)
 
 ### Default Overlay (Color : Black | Opacity 0.2)
-![Default Overlay (Color : Black | Opacity 0.2)](https://dl.dropboxusercontent.com/u/22816811/MKMapDimOverlay/Map_DefaultOverlay.png)
+![Default Overlay (Color : Black | Opacity 0.2)](/Screenshots/DefaultOverlay.png)
 
-### Custom Overlay (Color : Magenta | Opacity 0.3)
-![Custom Overlay (Color : Magenta | Opacity 0.3)](https://dl.dropboxusercontent.com/u/22816811/MKMapDimOverlay/Map_OverlayCustomColor.png)
+### Custom Overlay (Color : Cyan | Opacity 0.3)
+![Custom Overlay (Color : Cyan | Opacity 0.3)](/Screenshots/CustomOverlay.png)
 
 
 ## License
