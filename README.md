@@ -4,6 +4,7 @@
 [![License](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](/LICENSE)
 [![Twitter: @swapnilluktuke](https://img.shields.io/badge/Contact-@swapnilluktuke-blue.svg)](https://twitter.com/swapnilluktuke)
 
+##### There is a [Swift version](https://github.com/lukya/MapDimOverlay-Swift) of this :).
 Simple dim overlay on iOS MKMapView, covering entire map using MKOverlay and MKOverlayView with customizable colour and alpha values.
 
 ## Usage
